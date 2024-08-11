@@ -14,7 +14,7 @@ const StarshipSearch = (props) => {
         <section>
             <h2>Search for starships</h2>
             <form onSubmit={handleSubmit}>
-                <label htmlFor="name">serach:</label>
+                <label htmlFor="name">Serach term:</label>
                 <input type="text" value={starshipName} onChange={(e) => setStarshipName(e.target.value)}/>
                 <button type="submit">search</button>
             </form>
